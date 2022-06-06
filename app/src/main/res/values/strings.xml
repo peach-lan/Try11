@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">学付宝0.5</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="applicenter">应用中心</string>
+    <string name="compuscard">校园卡类</string>
+    <string name="appName">个人中心</string>
+    <string name="ok">OK</string>
+    <string name="todo1">todo1</string>
+    <string name="textview">TextView</string>
+    <string name="cont_bill">这是我的账单</string>
+    <string name="cont_balancequery">余额查询</string>
+    <string name="cont_pipelinequery">流水查询</string>
+    <string name="cont_bankcard">绑定银行卡</string>
+    <string name="cont_balancequery1">卡片余额查询</string>
+    <string name="cont_cardcharge">卡片充值</string>
+    <string name="cont_cardloss">卡片挂失</string>
+    <string name="cont_carduncoupling">卡片解挂</string>
+    <string name="cont_changepass">修改密码</string>
+    <string name="cont_netfee">交网费</string>
+    <string name="todo">TODO</string>
+</resources>

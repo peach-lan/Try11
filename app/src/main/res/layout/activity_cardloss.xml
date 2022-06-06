@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@color/darkbule">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="93dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/fanhui">
+        </ImageView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"
+            android:text="卡片挂失"
+            android:textSize="24dp"
+            android:textColor="#ffffff"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/off_name"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="姓名："
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/off_id"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="学/工号："
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/off_card"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="账号："
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/off_num"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="校园卡状态："
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:id="@+id/off_select"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="查询密码："
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/on_2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="立即挂失"
+            android:textSize="20dp"
+            android:background="@color/darkbule"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+</LinearLayout>
